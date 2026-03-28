@@ -1,0 +1,19 @@
+div{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    /* border-radius: 50%; */
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+#a2{
+    /* display: none; */
+    visibility: hidden;
+}
+#a1{
+    background-color: rgb(255,0,0);
+}
+#a3{
+    background-color: rgba(255,0,0,0.5);
+}

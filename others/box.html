@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      animation-name: colorChange;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      position: relative;
+    }
+
+    @keyframes colorChange {
+      0%   {
+         background-color: lightblue;
+        top:0px;
+        left: 0px
+        }
+      25%{
+        left:300px;
+        top:0px;
+      }
+      50%{
+        left:300px;
+        top:300px;
+      }
+      75%{
+        left:300px;
+        top: 0px;
+      }
+      100%{
+        left:0px;
+        top: 0px;
+      }
+
+      /* 25%  { background-color: lightgreen; }
+      50%  { background-color: yellow; }
+      75%  { background-color: orange; } */
+      100% { background-color: pink; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box"></div>
+
+</body>
+</html>
