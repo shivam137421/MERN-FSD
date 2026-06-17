@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Loader</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+/* Loader Screen */
+#loader {
+    position: fixed;
+    inset: 0;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    transition: opacity 0.8s ease;
+}
+
+/* Loading Bar Container */
+.loading-container {
+    width: 10%;
+    height: 4px;
+    background: #222;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Animated Line */
+.loading-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(
+        90deg,
+        #00f5ff,
+        #00ff88,
+        #ffee00,
+        #ff4d4d,
+        #00f5ff
+    );
+    background-size: 300% 100%;
+    animation:
+        load 3s linear forwards,
+        gradientMove 1s linear infinite;
+}
+
+@keyframes load {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes gradientMove {
+    from {
+        background-position: 0% 50%;
+    }
+    to {
+        background-position: 100% 50%;
+    }
+}
+
+/* Portfolio Content */
+#content {
+    display: none;
+    min-height: 100vh;
+    padding: 80px;
+    text-align: center;
+}
+
+#content h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+#content p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+</style>
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+    <div class="loading-container">
+        <div class="loading-bar"></div>
+    </div>
+</div>
+
+<!-- Portfolio Content -->
+<div id="content">
+    <h1>My Portfolio</h1>
+    <p>Welcome to my website 🚀</p>
+</div>
+
+<script>
+setTimeout(() => {
+    const loader = document.getElementById("loader");
+
+    loader.style.opacity = "0";
+
+    setTimeout(() => {
+        loader.style.display = "none";
+        document.getElementById("content").style.display = "block";
+    }, 800);
+
+}, 2000);
+</script>
+
+</body>
+</html>

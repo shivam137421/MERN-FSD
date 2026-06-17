@@ -1,0 +1,23 @@
+@keyframes moveright {
+    from {
+        transform: translateX(100px);
+    }
+    
+    to {
+        transform: translateX(500px);
+    }
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    /* animation-name: moveright;
+    animation-duration: 3s;
+    animation-timing-function: steps(3);
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+    animation:moveright 3s steps(3) 3s 3 reverse;
+    
+}

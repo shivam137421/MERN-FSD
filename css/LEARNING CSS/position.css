@@ -5,7 +5,7 @@ div{
 }
 #div1{
     position: static;
-    top: 100px;
+    top: 300000px;
 }
 #div2{
     position: relative;
