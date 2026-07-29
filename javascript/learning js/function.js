@@ -8,6 +8,8 @@ sum("hello","jav");
 const arrowmul = (a,b)=>{
     console.log(a*b);
 }
+arrowmul(2,3);
+console.log(typeof arrowmul);
 
 //function to return no.  of vowels
 
@@ -44,14 +46,15 @@ arrowcount = (str)=>{
 
 
 }
+console.log(arrowcount("shiiiiiiiiiiiiivam"));
 
 //for each loop in arrays
 //callback function
 //higher order function
 
 let arr =["jarvis" , "man" , "abc"];
-arr.forEach((val,idx,arr)=>{
-    console.log(val,idx,arr);
+arr.forEach((val,iiindx,arr)=>{
+    console.log(val,iiindx,arr);
 });
 
 
@@ -64,7 +67,7 @@ let arr2=[1,2,3,4,5,6,7,8]
 //map
 let newarr = arr2.map((val)=>{
     return val;
-})
+});
 
 
 //filter
@@ -80,11 +83,14 @@ let sum1=arr2.reduce((sum1,val)=>{
     return sum1+val;
 
     // return sum1>val ? sum1:val;
-}, initialval);
+}, initialval);//here initialval represent initial value of sum1
+console.log(initialval);
+console.log(sum1);
 
 let greater=arr2.reduce((curr,prev)=>{
     return curr>prev ? curr:prev;
 })
+console.log(greater);
  
 
 

@@ -1,41 +1,41 @@
 // alert("hello");
-// prompt("enter your name");
-console.log("hello");
+// let a=prompt("enter your name");
+// console.log(a);
 
-//let const var
-var a = 6;
-let b = 7;
-const c = 9;
-b = 12; // let b=7 not allowed
-var a = 73; //let a=73 not allowed
-// c=83; not allowed
+// //let const var
+// var a = 6;
+// let b = 7;
+// const c = 9;
+// b = 12; // let b=7 not allowed
+// var a = 73; //let a=73 not allowed
+// // c=83; not allowed
 
-console.log(a);
-console.log(b);
-console.log(c);
+// console.log(a);
+// console.log(b);
+// console.log(c);
 
-//data types
+// //data types
 
-var a = 63;
-fullname = "shivam";
-isfollow = true;
-let x = 2;
-y = null;
-let g = BigInt(74);
-var j = Symbol("hello!");
-console.log(typeof j);
+// var a = 63;
+// fullname = "shivam";
+// isfollow = true;
+// let x = 2;
+// y = null;
+// let g = BigInt(74);
+// var j = Symbol("hello!");
+// console.log(typeof j);
 
-//object
+// //object
 
-const student={
-    fullname:"shivam",
-    age:21,
-};
-console.log(student.age);
-student.fullname="stab";
-console.log(student.fullname);
-student.age=57;
-console.log(student.age);
+// const student={
+//     fullname:"shivam",
+//     age:21,
+// };
+// console.log(student.age);
+// student.fullname="stab";
+// console.log(student.fullname);
+// student.age=57;
+// console.log(student.age);
 
 const profile={
     username:"shivam",

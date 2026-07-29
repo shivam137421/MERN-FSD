@@ -17,9 +17,8 @@
 //methods //splice
 
 let arr = ["hello","everyone","this","is","jarvis?"];
-// console.log(arr.splice(1,2,101,102));
-// console.log(arr.splice(1,0,"check","check"));
+console.log(arr.splice(1,2,101,102));
+console.log(arr.splice(1,0,"check","check"));
 console.log(arr.splice(2,3));
-
 console.log(arr);
 

@@ -19,6 +19,6 @@ console.log(a==b);
 
 //loop for of , for in
 let str="shivam";
-for(let of in str){
+for(let i of str){
     console.log(i);
 }
