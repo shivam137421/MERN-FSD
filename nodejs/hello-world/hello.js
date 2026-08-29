@@ -7,3 +7,13 @@ console.log("hey")
 
 //to create package.json at specific folder , first come to that folder in terminal then run npm init
 //we can add our own script in package.json file by separting scripts by a single use of comma symbol(,)
+
+
+const math = require('./math');
+const {sub1,add1}=require('./math');
+
+console.log(add1,sub1);
+console.log(typeof(add1));
+
+console.log(math.add1(2,6));
+console.log(sub1(2,6));
