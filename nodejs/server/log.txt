@@ -1,15 +1,10 @@
-1788039152201:/ new request recieved
-1788039429415:/ new request recieved
-1788039533966:/ new request recieved
-1788039540144:/about?search=name new request recieved
-1788039589475:/about?myname=shivam&id=67 new request recieved
-1788039626750:/about?myname=shivam&id=67 new request recieved
-1788039693849:/about?myname=shivam&id=67 new request recieved
-1788039792360:/about?myname=shivam&id=67 new request recieved
-1788041154773:/about?myname=shivam&id=67 new request recieved
-1788041179148:/about?myname=shivam&id=67 new request recieved
-1788041197065:/about?myname=shivam&id=67 new request recieved
-1788041199525:/about?myname=shivam&id=67 new request recieved
-1788041204501:/about?myname=shivhbjham&id=67 new request recieved
-1788041211130:/about?myname=shivam&id=67 new request recieved
-1788041482353:/?myname=shivam&id=67 new request recieved
+1788148540663: GET /about?myname=shivam&id=67 new request recieved
+1788148565216: GET /signup?myname=shivam&id=67 new request recieved
+1788148577113: GET /.well-known/appspecific/com.chrome.devtools.json new request recieved
+1788148583580: GET /signup?myname=shivam&id=67 new request recieved
+1788148583644: GET /.well-known/appspecific/com.chrome.devtools.json new request recieved
+1788148961117: GET /?myname=shivam&id=67 new request recieved
+1788148961184: GET /.well-known/appspecific/com.chrome.devtools.json new request recieved
+1788189597616: GET / new request recieved
+1788189615441: GET / new request recieved
+1788189627304: GET /signup?myname=shivam&id=67 new request recieved
